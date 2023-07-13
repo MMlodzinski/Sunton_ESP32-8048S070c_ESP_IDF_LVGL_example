@@ -1,7 +1,7 @@
 # Sunton_ESP32-8048S070c_ESP_IDF_LVGL_example
 An example to show how to use LCD display and touch with LVGL on ESP-IDF framework for Sunton ESP32-8048S070c devboard.
 
-# Features
+## Features
 The example supports only LCD and touch of the board. More features may be added in the future.
 
 ## How to run the example
