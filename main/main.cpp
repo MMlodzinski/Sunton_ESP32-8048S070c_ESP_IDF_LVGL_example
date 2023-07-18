@@ -139,7 +139,7 @@ static void example_increase_lvgl_tick(void *arg) {
   lv_tick_inc(LVGL_TICK_PERIOD_MS);
 }
 
-extern "C" void app_main(void) {
+void app_main(void) {
   static lv_disp_draw_buf_t
       disp_buf; // contains internal graphic buffer(s) called draw buffer(s)
   static lv_disp_drv_t disp_drv; // contains callback functions
