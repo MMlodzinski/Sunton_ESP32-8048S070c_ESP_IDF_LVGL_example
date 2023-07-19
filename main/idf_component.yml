@@ -1,10 +1,13 @@
 ## IDF Component Manager Manifest File
 dependencies:
-  espressif/esp_lcd_touch_gt911: "^1.0.7~1"
   lvgl/lvgl: "^8.3.8"
+  Sunton_ESP32-8048S070c_board:
+    version: "1.0.0-alpha"
+    git: https://github.com/MMlodzinski/Sunton_ESP32-8048S070c_board.git
+    # path: ../../Sunton_ESP32-8048S070c_board
   ## Required IDF version
   idf:
-    version: ">=4.1.0"
+    version: ">=5.0"
   # # Put list of dependencies here
   # # For components maintained by Espressif:
   # component: "~1.0.0"
