@@ -2,7 +2,7 @@
 dependencies:
   lvgl/lvgl: "^8.3.8"
   Sunton_ESP32-8048S070c_board:
-    version: "1.0.0-alpha"
+    version: "0.1.0-alpha"
     git: https://github.com/MMlodzinski/Sunton_ESP32-8048S070c_board.git
     # path: ../../Sunton_ESP32-8048S070c_board
   ## Required IDF version
